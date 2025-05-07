@@ -67,16 +67,16 @@ a, span{
 
 
 .titleHome{
-  font-weight: bold;
-  font-size: 8em;
-  margin-top: 0.5em;
+  font-weight: 900;
+  font-size: 12em;
+  margin-top: 0.8em;
 }
 
 .porscheHeader{
   position: absolute;
   width: 80%;
   height: auto;
-  top: 4%;
+  top: 5%;
   right: 10%;
 }
 
@@ -84,7 +84,7 @@ a, span{
   font-style: italic;
   font-weight: 400;
   font-size: 1.5em;
-  margin-top: 10em;
+  margin-top: 15em;
 }
 
 .othersSubtitles{
@@ -94,10 +94,18 @@ a, span{
     margin-left: 5em;
 }
 
+.othersSubtitles2{
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 8em;
+  margin-top: 7em;
+}
+
 .linea-blanca {
-  height: 2px; /* Grosor de la línea */
-  background-color: white; /* Color de la línea */
-  width: 80%; /* Ocupa todo el ancho */
+  height: 2px; 
+  background-color: white; 
+  width: 85%; 
   margin-left: 10em;
 }
 
@@ -117,13 +125,13 @@ form div{
 
 .titleLogin{
   margin-left: 1.5em;
-  font-size: 5em;
+  font-size: 7em;
   font-weight: 800;
 }
 
 .descLogin{
   font-weight: 100;
-  font-size: 1.3em;
+  font-size: 2em;
   font-style: italic;
   width: 40vw;
   margin-left: 6em;
@@ -347,3 +355,7 @@ form div{
   transform: scale(1.1);
 }
 
+
+.form-margen{
+  margin-top: 8em;
+}

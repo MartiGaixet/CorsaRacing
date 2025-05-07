@@ -93,11 +93,11 @@ function CrearCampeonato({ show, handleClose }) {
   
 
   return (
-    <Modal show={show} onHide={handleClose} centered>
+    <Modal show={show} onHide={handleClose} centered size="lg">
       <Modal.Header closeButton>
         <Modal.Title>Crear Campeonato</Modal.Title>
       </Modal.Header>
-      <Modal.Body>
+      <Modal.Body style={{ maxHeight: "70vh", overflowY: "auto" }}>
         <Form>
           <Form.Group className="mb-3">
             <Form.Label>Nombre del Campeonato</Form.Label>
@@ -106,6 +106,7 @@ function CrearCampeonato({ show, handleClose }) {
               value={nombreCampeonato}
               onChange={(e) => setNombreCampeonato(e.target.value)}
               placeholder="Ejemplo: Campeonato 2025"
+              className="w-100"
             />
           </Form.Group>
           
@@ -117,20 +118,20 @@ function CrearCampeonato({ show, handleClose }) {
                 placeholder="Circuito"
                 value={carrera.circuito}
                 onChange={(e) => handleCarreraChange(index, "circuito", e.target.value)}
-                className="mb-2"
+                className="mb-2 w-100"
               />
               <Form.Control
                 type="text"
                 placeholder="Coche"
                 value={carrera.coche}
                 onChange={(e) => handleCarreraChange(index, "coche", e.target.value)}
-                className="mb-2"
+                className="mb-2 w-100"
               />
               <Form.Control
                 type="datetime-local"
                 value={carrera.fecha}
                 onChange={(e) => handleCarreraChange(index, "fecha", e.target.value)}
-                className="mb-2"
+                className="mb-2 w-100"
               />
             </div>
           ))}
@@ -147,7 +148,7 @@ function CrearCampeonato({ show, handleClose }) {
               placeholder="Email del usuario"
               value={usuario}
               onChange={(e) => handleUsuarioChange(index, e.target.value)}
-              className="mb-2"
+              className="mb-2 w-100"
             />
           ))}
           <div className="d-flex gap-2">

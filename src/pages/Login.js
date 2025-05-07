@@ -16,7 +16,7 @@ function Login() {
     <div className="d-flex">
         <div className="bodyLogin">
             <img src={Logo} width="100" height="auto" alt="Logo" className="mt-5 ms-5"></img>
-            <h4 className="othersSubtitles mt-5">WELCOME TO</h4>
+            <h4 className="othersSubtitles2">WELCOME TO</h4>
             <h1 className="mt-4 titleLogin">CORSA RACING</h1>
             <h6 className="mt-5 descLogin">An all in one platform for racing enthusiasts
             from beginners to pros. Become a legend in
@@ -24,9 +24,9 @@ function Login() {
         </div>
         <div className="formContainer">
         <h4 className="mt-5">Corsa Racing</h4>
-        <h4 className="mt-5 text-align-left">Welcome back!</h4>
+        <h4 className="form-margen text-align-left">Welcome back!</h4>
         <p className="mt-2">Don't have an account? Create a new account now <span onClick={goSignup}><b>here</b></span></p>
-        <div className="mt-5 d-flex justify-content-center">
+        <div className="d-flex justify-content-center">
         <Form></Form>
         </div>
         
