@@ -1,17 +1,18 @@
-# Selepass
+# Corsa Racing
 
 ## 📖 Idea del Proyecto
-SelePass es una plataforma web dirigida a estudiantes de 17 a 20 años que buscan mejorar su preparación para la Selectividad. Junto con un diseño moderno, la aplicación ofrece seguimiento de fechas clave, recordatorios personalizados, todos los exámenes de la EBAU hasta la fecha y apuntes para poder ir bien preparado.
+Corsa Racing es una plataforma web dirigida a amantes de las carreras y el motorsport en general la cual busca hacer la vida más fácil a sus usuarios gestionando todos sus campeonatos
+y sirviendo como agenda para esto. Para cumplir con dicha función, la web ofrece la creación de campeonatos junto a otros usuarios, inserción de carreras y apartado para ver las siguientes carreras y la siguiente carrera de cada campeonato
 
 ## 🎯 Nuestros Objetivos
-Nuestros objetivos con esta web serían principalmente un uso completamente funcional y útil, además de conseguir cierta escalabilidad para crear un proyecto en el futuro debido al hueco de mercado que le vemos a nuestra competencia en cuanto a estudio de selectividad se refiere.
+Nuestros objetivos con esta web serían principalmente un uso completamente funcional y útil, además de conseguir cierta escalabilidad para crear un proyecto en el futuro debido al hueco de mercado que le vemos a nuestra competencia
 
 ## 🌐 Tecnologías Usadas
 Las tecnologías que usaremos para crear nuestro proyecto se dividen en las siguientes partes:
 
 - **Frontend:** React
 - **Backend:** C# usando Entity Framework
-- **Base de Datos:** SQL (SQL Server, SQL Workbench, etc.)
+- **Base de Datos:** SQL Database con Azure
 
 ## 💻 Página Web
 
